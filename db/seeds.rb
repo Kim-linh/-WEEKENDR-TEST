@@ -16,7 +16,7 @@ price_madrid = html_doc.search('tr')[32].children.children[1].text.strip
 
 dest_madrid = Destination.new(
   destination_name: "Madrid",
-  description: "",
+  description: "La ville de la fête",
   transport_price: price_madrid,
   photo_link: "https://images.kiwi.com/photos/600x600/madrid_es.jpg",
   flag_link: "http://flags.fmcdn.net/data/flags/w1160/es.png"

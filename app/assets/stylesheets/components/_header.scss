@@ -6,9 +6,21 @@ h1 {
 }
 
 h2{
-  font-family: "Roboto";
+  font-family: $body-font;
   color: black;
   font-size: 18px;
+}
+
+h3{
+  font-family: $body-font;
+  color: black;
+  font-size: 14px;
+}
+
+p{
+  font-family: $body-font;
+  color: $dark-gray;
+  font-size: 14px;
 }
 
 .white {

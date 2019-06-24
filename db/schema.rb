@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 2019_06_24_084059) do
     t.string "transport_price"
     t.string "flag_link"
     t.string "photo_link"
+    t.string "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

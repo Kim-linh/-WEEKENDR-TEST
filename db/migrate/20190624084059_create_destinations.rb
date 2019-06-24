@@ -5,6 +5,7 @@ class CreateDestinations < ActiveRecord::Migration[5.2]
       t.string :transport_price
       t.string :flag_link
       t.string :photo_link
+      t.string :description
 
       t.timestamps
     end

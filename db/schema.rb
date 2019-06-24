@@ -17,7 +17,8 @@ ActiveRecord::Schema.define(version: 2019_06_24_084059) do
 
   create_table "destinations", force: :cascade do |t|
     t.string "destination_name"
-    t.integer "transport_price"
+    t.string "transport_price"
+    t.string "flag_link"
     t.string "photo_link"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

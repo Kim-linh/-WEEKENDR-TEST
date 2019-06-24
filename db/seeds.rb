@@ -16,7 +16,7 @@ price_madrid = html_doc.search('tr')[32].children.children[1].text.strip
 
 dest_madrid = Destination.new(
   destination_name: "Madrid",
-  description: "",
+  description: "La cité royale.",
   transport_price: price_madrid,
   photo_link: "https://images.kiwi.com/photos/600x600/madrid_es.jpg",
   flag_link: "http://flags.fmcdn.net/data/flags/w1160/es.png"
@@ -31,7 +31,7 @@ price_barcelone = html_doc.search('tr')[32].children.children[1].text.strip
 
 dest_barcelone = Destination.new(
   destination_name: "Barcelone",
-  description: "",
+  description: "La ville de Gaudi.",
   transport_price: price_barcelone,
   photo_link: "https://images.kiwi.com/photos/600x600/barcelona_es.jpg",
   flag_link: "http://flags.fmcdn.net/data/flags/w1160/es.png"
@@ -46,7 +46,7 @@ price_porto = html_doc.search('tr')[32].children.children[1].text.strip
 
 dest_porto = Destination.new(
   destination_name: "Porto",
-  description: "",
+  description: "L’invaincue.",
   transport_price: price_porto,
   photo_link: "https://images.kiwi.com/photos/600x600/porto_pt.jpg",
   flag_link: "http://flags.fmcdn.net/data/flags/w1160/pt.png"
@@ -61,7 +61,7 @@ price_venise = html_doc.search('tr')[32].children.children[1].text.strip
 
 dest_venise = Destination.new(
   destination_name: "Venise",
-  description: "",
+  description: "La Cité flottante.",
   transport_price: price_venise,
   photo_link: "https://images.kiwi.com/photos/600x600/venice_it.jpg",
   flag_link: "http://flags.fmcdn.net/data/flags/w1160/it.png"
@@ -76,7 +76,7 @@ price_berlin = html_doc.search('tr')[32].children.children[1].text.strip
 
 dest_berlin = Destination.new(
   destination_name: "Berlin",
-  description: "",
+  description: "La ville monde.",
   transport_price: price_berlin,
   photo_link: "https://images.kiwi.com/photos/600x600/berlin_de.jpg",
   flag_link: "http://flags.fmcdn.net/data/flags/w1160/de.png"
@@ -91,7 +91,7 @@ price_milan = html_doc.search('tr')[32].children.children[1].text.strip
 
 dest_milan = Destination.new(
   destination_name: "Milan",
-  description: "",
+  description: "La capitale mondiale de la mode.",
   transport_price: price_milan,
   photo_link: "https://images.kiwi.com/photos/600x600/milan_it.jpg",
   flag_link: "http://flags.fmcdn.net/data/flags/w1160/it.png"
@@ -106,7 +106,7 @@ price_amsterdam = html_doc.search('tr')[32].children.children[1].text.strip
 
 dest_amsterdam = Destination.new(
   destination_name: "Amsterdam",
-  description: "",
+  description: "La Venise du Nord.",
   transport_price: price_amsterdam,
   photo_link: "https://images.kiwi.com/photos/600x600/amsterdam_nl.jpg",
   flag_link: "http://flags.fmcdn.net/data/flags/w1160/nl.png"
@@ -121,7 +121,7 @@ price_dublin = html_doc.search('tr')[32].children.children[1].text.strip
 
 dest_dublin = Destination.new(
   destination_name: "Dublin",
-  description: "",
+  description: "La ville aux portes colorées.",
   transport_price: price_dublin,
   photo_link: "https://images.kiwi.com/photos/600x600/dublin_ie.jpg",
   flag_link: "http://flags.fmcdn.net/data/flags/w1160/ie.png"
@@ -136,7 +136,7 @@ price_paris = html_doc.search('tr')[32].children.children[1].text.strip
 
 dest_paris = Destination.new(
   destination_name: "Paris",
-  description: "",
+  description: "La ville lumière.",
   transport_price: price_paris,
   photo_link: "https://images.kiwi.com/photos/600x600/paris_fr.jpg",
   flag_link: "http://flags.fmcdn.net/data/flags/w1160/fr.png"
@@ -151,7 +151,7 @@ price_bordeaux = html_doc.search('tr')[32].children.children[1].text.strip
 
 dest_bordeaux = Destination.new(
   destination_name: "Bordeaux",
-  description: "",
+  description: "La belle endormie.",
   transport_price: price_bordeaux,
   photo_link: "https://images.kiwi.com/photos/600x600/bordeaux_fr.jpg",
   flag_link: "http://flags.fmcdn.net/data/flags/w1160/fr.png"
@@ -166,7 +166,7 @@ price_helsinki= html_doc.search('tr')[32].children.children[1].text.strip
 
 dest_helsinki = Destination.new(
   destination_name: "Helsinki",
-  description: "",
+  description: "La ville blanche du Nord.",
   transport_price: price_helsinki,
   photo_link: "https://images.kiwi.com/photos/600x600/helsinki_fi.jpg",
   flag_link: "http://flags.fmcdn.net/data/flags/w1160/fi.png"
@@ -181,7 +181,7 @@ price_athenes= html_doc.search('tr')[32].children.children[1].text.strip
 
 dest_athenes = Destination.new(
   destination_name: "Athènes",
-  description: "",
+  description: "La cité de la couronne violette.",
   transport_price: price_athenes,
   photo_link: "https://images.kiwi.com/photos/600x600/athens_gr.jpg",
   flag_link: "http://flags.fmcdn.net/data/flags/w1160/gr.png"

@@ -13,16 +13,26 @@
 }
 
 .card-trip h2 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
 }
 
 .card-trip p {
-  font-size: 12px;
+  font-size: 14px;
   opacity: .7;
   margin: 0;
 }
 
+.card-trip-pricing {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.card-trip-pricing > img{
+  width: 10px;
+  margin-right: 5px;
+}
 
 .card-trip .card-trip-infos {
   padding: 16px;

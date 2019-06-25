@@ -4,21 +4,22 @@
 <div class="container">
   <div class="row">
     <% @destinations.each do |destination| %>
-    <div class="col-sm-6 col-lg-4">
-      <div class="card-trip">
-        <img src="<%= destination.photo_link %>">
-        <div class="card-trip-infos">
-          <div>
-            <h2><%= destination.destination_name %></h2>
-            <p><%= destination.description %></p>
+      <div class="col-sm-6 col-lg-4">
+        <div class="card-trip">
+          <img src="<%= destination.photo_link %>">
+          <div class="card-trip-infos">
+            <div>
+              <h2><%= destination.destination_name %></h2>
+              <p><%= destination.description %></p>
+            </div>
+            <div class="card-trip-pricing">
+              <img src="/assets/ticket.png" width="20" height="10"/>
+              <h3><%= destination.transport_price %></h3>
+            </div>
+            <img src="<%= destination.flag_link %>" class="card-trip-user avatar-bordered"/>
           </div>
-          <div class="card-trip-pricing"><img src="app/assimages/ticket.png"/>
-          <h3><%= destination.transport_price %></h3>
-          </div>
-          <img src="<%= destination.flag_link %>" class="card-trip-user avatar-bordered"/>
         </div>
       </div>
-    </div>
     <% end %>
   </div>
 </div>

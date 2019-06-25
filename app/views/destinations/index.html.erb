@@ -6,17 +6,17 @@
     <% @destinations.each do |destination| %>
       <div class="col-sm-6 col-lg-4">
         <div class="card-trip">
-          <img src="<%= destination.photo_link %>">
+          <img src="<%= destination.photo_link %>" alt="Photo d'une ville">
           <div class="card-trip-infos">
             <div>
               <h2><%= destination.destination_name %></h2>
               <p><%= destination.description %></p>
             </div>
             <div class="card-trip-pricing">
-              <img src="/assets/ticket.png" width="20" height="10"/>
+              <img src="/assets/ticket.png" width="20" height="10" alt="Icône d'un ticket">
               <h3><%= destination.transport_price %></h3>
             </div>
-            <img src="<%= destination.flag_link %>" class="card-trip-user avatar-bordered"/>
+            <img src="<%= destination.flag_link %>" class="card-trip-user avatar" alt="Drapeau d'une ville">
           </div>
         </div>
       </div>
